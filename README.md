@@ -146,7 +146,7 @@ In order to add more interactivity to a tour, you can include "command links" to
 ```markdown
 <!-- Call a command that doesn't require arguments-->
 
-[Open URL](command:codetour.startTour)
+[Start tour](command:codetour.startTour)
 
 <!-- Call a command that requires arguments-->
 
@@ -356,7 +356,7 @@ In addition to the `CodeTour` tree view and the status bar item, the CodeTour ex
 
 * `CodeTour: Show Tour Markers` - Shows [tour markers](#tour-markers). This command is only visible if the current workspace has one or more code tours, and tour markers are currently hidden.
 
-- `CodeTour: Edit Tour` - Puts the currently active tour into edit more. This command is only visible while you're actively playing a tour, that you're not already editing.
+- `CodeTour: Edit Tour` - Puts the currently active tour into edit mode. This command is only visible while you're actively playing a tour, that you're not already editing.
 
 - `CodeTour: End Tour` - Ends the currently active tour. This command is only visible while you're actively recording/playing a tour.
 
